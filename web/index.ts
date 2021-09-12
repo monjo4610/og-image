@@ -150,15 +150,15 @@ const markdownOptions: DropdownOption[] = [
 const imageLightOptions: DropdownOption[] = [
   {
     text: "と",
-    value: "/images/light/logo_short.svg",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_short.svg",
   },
   {
     text: "ときやど",
-    value: "/images/light/logo_colored.svg",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_colored.svg",
   },
   {
     text: "時を感じる宿に泊まろう",
-    value: "/images/light/logo_long.svg",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_long.svg",
   },
 ];
 
@@ -231,7 +231,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
     fontSize = "100px",
     theme = "light",
     md = true,
-    text = "**Hello** World",
+    text = "時を感じる宿に泊まろう",
     images = [imageLightOptions[0].value],
     widths = [],
     heights = [],
