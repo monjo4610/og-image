@@ -231,7 +231,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
     fontSize = "100px",
     theme = "light",
     md = true,
-    text = "時を感じる宿に泊まろう",
+    text = "tokiyado",
     images = [imageLightOptions[0].value],
     widths = [],
     heights = [],
