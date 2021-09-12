@@ -164,19 +164,16 @@ const imageLightOptions: DropdownOption[] = [
 
 const imageDarkOptions: DropdownOption[] = [
   {
-    text: "Vercel",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg",
+    text: "と",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_short.svg",
   },
   {
-    text: "Next.js",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg",
+    text: "ときやど",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_colored.svg",
   },
   {
-    text: "Hyper",
-    value:
-      "https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg",
+    text: "時を感じる宿に泊まろう",
+    value: "https://tokiyado-og-image.vercel.app/images/light/logo_long.svg",
   },
 ];
 
