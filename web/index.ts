@@ -231,7 +231,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
     fontSize = "100px",
     theme = "light",
     md = true,
-    text = "tokiyado",
+    text = "ときやど",
     images = [imageLightOptions[0].value],
     widths = [],
     heights = [],
@@ -424,7 +424,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
             onclick: () => {
               const nextImage =
                 images.length === 1
-                  ? "https://cdn.jsdelivr.net/gh/remojansen/logo.ts@master/ts.svg"
+                  ? "https://tokiyado-og-image.vercel.app/images/light/logo_short.svg"
                   : "";
               setLoadingState({ images: [...images, nextImage] });
             },
